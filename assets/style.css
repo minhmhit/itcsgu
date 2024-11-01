@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    right:100%;
+    margin-top: -1px;
+    display: none;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+.myheader{
+    background-color: #37517e;
+}
+.btn {
+    background-color: #47B2E4;
+}
+.navcontainer{
+    padding: 20px;
+    height: 100px;
+    background-color: #37517e;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.brand{
+
+    justify-content: left;
+    align-items: center;
+
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+}
+.contact-img img{
+    width:400px;
+    height:300px;
+}
+.footer-content h5 {
+    color: #37517e;
+    font-weight: bold;
+    font-size: 16px;
+}
